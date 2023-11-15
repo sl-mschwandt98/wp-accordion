@@ -1,0 +1,25 @@
+/**
+ * backend-accordion-container.css
+ *
+ * Enthält die Styles für den Akkordeon-Container.
+ */
+
+/* Controls des Akkordeon-Containers anzeigen */
+.wpb_sl_accordion_container > .vc_controls {
+    opacity: 1 !important;
+    visibility: visible;
+    position: relative;
+    height: 23px;
+    margin: 18px 0 2px 0;
+    border: 1px dotted #e6e6e6;
+    border-bottom-width: 0;
+}
+
+/* Controls des Akkordeon-Items anzeigen */
+.wpb_sl_accordion_item > .wpb_element_wrapper > .vc_tta-panel-body > .vc_controls {
+    position: relative;
+    height: 45px;
+    margin-top: -12px;
+    opacity: 1 !important;
+    visibility: visible;
+}
